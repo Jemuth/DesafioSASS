@@ -1,0 +1,130 @@
+/* Footer */
+footer {
+    padding-top: 60px;
+    font-family: $Monserrat;
+    background-color: $naranja;
+    color: $negro;
+}
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    p {
+        color: $negro;
+        font-size: 3rem;
+        width: 100%;
+        font-weight: bold;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+}
+label {
+    font-family: $Monserrat;
+    font-size: 1.6rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+input {
+    font-family: $Monserrat;
+    font-size: 1,6rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+select {
+    font-family: $Monserrat;
+    font-size: 1.6rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.botonEnviar {
+    font-family: $Monserrat;
+    font-size: 2rem;
+    font-weight: bold;
+    width: auto;
+    height: auto;
+    border: none;
+    border-radius: 1.6rem;
+    padding: 2rem 2rem 2rem 2rem;
+    background-color: $negro;
+    color: $naranja;
+    &:hover{
+        font-family: $Monserrat;
+        font-size: 2rem;
+        font-weight: bold;
+        width: auto;
+        height: auto;
+        border: none;
+        border-radius: 1.6rem;
+        padding: 2rem 2rem 2rem 2rem;
+        background-color: $negro;
+        color: white;
+    }
+}
+
+/** Redes sociales **/
+
+.contenedorRedes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+    background-color: $negro;
+    color: $naranja;
+}
+.contenedorLista{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    flex-direction: row;
+    list-style-type: none;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+/** Contacto **/
+
+.contacto {
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+    background-color: $negro;
+    color: $naranja;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 4rem;
+}
+.contactoLista {
+    display: flex;
+    flex-direction: row;
+    gap:2rem;
+    justify-content: center;
+    list-style-type: none;
+    a {
+        color: $naranja;
+        font-size: 1.6rem;
+    }
+    a:hover {
+        color: white;
+        font-size: 1.6rem;
+    }
+}
+.parrafoPie {
+    font-weight: bold;
+    font-family: $Monserrat;
+    font-size: 2rem;
+}
+/** Copyright **/
+
+.copyright {
+    background-color: $negro;
+    font-weight: bold;
+    color: $naranja;
+    padding-bottom: 30px;
+}

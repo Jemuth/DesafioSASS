@@ -1,0 +1,15 @@
+/* Globales */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+a {
+    font-weight: bold;
+    &:hover,&:active,&:visited,&:link{
+        text-decoration: none
+    }
+}
