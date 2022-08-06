@@ -1,0 +1,92 @@
+/** Pagina Categorias **/
+
+.categorias {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    background-color: $negro;
+    text-align: middle;
+}
+.categoriasTitulo {
+    display: flex;
+    width: auto;
+    height: auto;
+    justify-content: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    h2 {
+        color: $naranja;
+        font-size: 4rem;
+        font-weight: bold;
+    }
+}
+.busquedaCategorias {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.formFlex {
+    display: flex;
+    flex-direction: row;
+}
+.form-control {
+    width: 30rem;
+    height: 5rem;
+    font-weight: bold;
+}
+.busquedaCategorias .btn {
+    background-color: $naranja;
+    color: $negro;
+    font-weight: bold;
+    font-size: 2rem;
+    border: none;
+}
+.busquedaCategorias .btn:hover {
+    background-color: $naranja;
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    border: none;
+}
+
+/* Cards Categorias */
+.categoriasCards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    gap: 4rem;
+}
+.card {
+    @include cardGenerica--container;
+}
+.card-body {
+    @include cardGenerica--body;
+}
+.card-title {
+    @include cardGenerica--titulo;
+}
+.card-text {
+    @include cardGenerica--texto;
+}
+.botonCategorias {
+    @include botonCard;
+}
+/* Boton ver */
+.vermasCategorias {
+    @include verMas
+}
+.vermasCategorias--hover{
+    @extend .vermasCategorias;
+    a:hover {
+    background-color: $naranja;
+    color: $negro;
+    border: $naranja solid 0.6rem;
+}
+}

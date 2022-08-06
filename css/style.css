@@ -2,6 +2,8 @@
 /* Variables */
 /* Colores */
 /* Tipografias */
+/* Mixins cards */
+/* Boton Ver más genérico */
 /* Globales */
 * {
   padding: 0;
@@ -470,7 +472,122 @@ select {
   color: #cb661c;
   padding-bottom: 30px; }
 
+/** Pagina Categorias **/
+.categorias {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  background-color: black;
+  text-align: middle; }
+
+.categoriasTitulo {
+  display: flex;
+  width: auto;
+  height: auto;
+  justify-content: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem; }
+  .categoriasTitulo h2 {
+    color: #cb661c;
+    font-size: 4rem;
+    font-weight: bold; }
+
+.busquedaCategorias {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  padding-top: 1rem;
+  padding-bottom: 1rem; }
+
+.formFlex {
+  display: flex;
+  flex-direction: row; }
+
+.form-control {
+  width: 30rem;
+  height: 5rem;
+  font-weight: bold; }
+
+.busquedaCategorias .btn {
+  background-color: #cb661c;
+  color: black;
+  font-weight: bold;
+  font-size: 2rem;
+  border: none; }
+
+.busquedaCategorias .btn:hover {
+  background-color: #cb661c;
+  color: white;
+  font-weight: bold;
+  font-size: 2rem;
+  border: none; }
+
+/* Cards Categorias */
+.categoriasCards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  gap: 4rem; }
+
+.card {
+  width: 18rem;
+  text-align: center; }
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+.card-title {
+  font-weight: bold;
+  font-size: 2rem; }
+
+.card-text {
+  font-size: 1.5rem; }
+
+.botonCategorias {
+  background-color: #cb661c;
+  font-weight: bold;
+  font-size: 1.3rem;
+  border: none; }
+  .botonCategorias:hover {
+    background-color: black;
+    font-weight: bold;
+    font-size: 1.3rem;
+    border: none; }
+
+/* Boton ver */
+.vermasCategorias, .vermasCategorias--hover {
+  text-align: center;
+  padding-bottom: 3rem; }
+  .vermasCategorias a, .vermasCategorias--hover a {
+    background-color: black;
+    color: #cb661c;
+    border: #cb661c solid 0.6rem;
+    border-radius: 2rem;
+    font-size: 3rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem; }
+
+.vermasCategorias--hover a:hover {
+  background-color: #cb661c;
+  color: black;
+  border: #cb661c solid 0.6rem; }
+
 /* Media queries */
+@media only screen and (max-width: 420px) {
+  .formFlex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; } }
+
 @media only screen and (max-width: 500px) {
   .imgMarcas1 {
     width: 27rem;
@@ -561,6 +678,18 @@ select {
     font-weight: bold;
     font-family: "Montserrat", sans-serif;
     font-size: 2rem; } }
+
+@media only screen and (max-width: 700px) {
+  .categoriasCards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    gap: 4rem; }
+  #cardCategoria {
+    text-align: center;
+    width: 25rem; } }
 
 @media only screen and (max-width: 900px) {
   .imgCategorias {

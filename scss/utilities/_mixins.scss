@@ -1,0 +1,45 @@
+/* Mixins cards */
+@mixin cardGenerica--container {
+    width: 18rem;
+    text-align: center;
+}
+@mixin cardGenerica--body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+@mixin cardGenerica--titulo {
+    font-weight: bold;
+    font-size: 2rem;
+}
+@mixin cardGenerica--texto {
+    font-size: 1.5rem;
+}
+@mixin botonCard {
+    background-color: $naranja;
+    font-weight: bold;
+    font-size: 1.3rem;
+    border: none;
+    &:hover {
+        background-color: $negro;
+        font-weight: bold;
+        font-size: 1.3rem;
+        border: none;
+    }
+}
+/* Boton Ver más genérico */
+@mixin verMas {
+    text-align: center;
+    padding-bottom: 3rem;
+    a{
+    background-color: $negro;
+    color: $naranja;
+    border: $naranja solid 0.6rem;
+    border-radius: 2rem;
+    font-size: 3rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+}
