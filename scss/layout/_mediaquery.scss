@@ -1,9 +1,42 @@
-/* Media queries */
+/** Media queries **/
 @media only screen and (max-width: 420px) {
+    .contenedorSesion {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: $negro;
+        padding-top: 5rem;
+        padding-left: 0;
+        padding-bottom: 5rem;
+        height: auto;
+        width: 100%;
+    }
     .formFlex {
         display: flex;
         flex-direction: column;
         justify-content: center;
+    }
+    .form-control {
+        width: 20rem;
+        height: 5rem;
+        font-weight: bold;
+    }
+    .temasAyuda {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: $negro;
+        width: 100%;
+        height: auto;
+        color: $naranja;
+        padding-bottom: 5rem;
+    }
+    .listaTemas {
+        font-size: 1.8rem;
+        width: 100%;
+        padding: 1rem;
+        list-style: none;
     }
 }
 @media only screen and (max-width: 500px) {
@@ -50,6 +83,30 @@
         background-position: center;
     }
 }
+@media only screen and (max-width: 533px) {
+    .fichaCatalogo {
+        background-color: $naranja;
+        width: 100%;
+        padding-bottom: 3rem;
+    }
+    .catalogoImg {
+        width: 100%;
+        height: auto;
+        padding-bottom: 5rem;
+    }
+    .catalogoImg img{
+        width: 100%;
+        height: auto;
+    }
+    .catalogosLista ul {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        padding-bottom: 3rem;
+        gap: 3rem;
+    }
+}
 @media only screen and (max-width: 600px) {
     .contenedorHeader {
         display: flex;
@@ -65,7 +122,7 @@
         flex-direction: row;
         justify-content: space-around;
         font-size: 1.4rem;
-        color: var(--naranja);
+        color: $naranja;
         width: 100%;
     }
     .headerLogin {
@@ -101,17 +158,24 @@
         list-style-type: none;
     }
     .contactoLista a {
-    color: $naranja;
-    font-size: 1.6rem;
+        color: $naranja;
+        font-size: 1.6rem;
 }
     .contactoLista a:hover {
-    color: white;
-    font-size: 1.6rem;
+        color: white;
+        font-size: 1.6rem;
 }
     .parrafoPie {
-    font-weight: bold;
-    font-family: $Monserrat;
-    font-size: 2rem;
+        font-weight: bold;
+        font-family: $Monserrat;
+        font-size: 2rem;
+}
+    .listadoOfertas {
+        background-color: $negro;
+        width: 100%;
+        height: 200rem;
+        display: flex;
+        justify-content: space-evenly;
 }
 }
 @media only screen and (max-width: 700px) {
@@ -126,6 +190,37 @@
     #cardCategoria {
         text-align: center;
         width:25rem;
+    }
+}
+@media only screen and (max-width: 775px) {
+    .carousel-control-prev {
+        margin-left: auto;
+    }
+    .carousel-control-next {
+        margin-right: auto;
+    }
+    .carouselImg {
+        width: 25rem;
+        height: auto;
+    }
+}
+@media only screen and (max-width: 882px) {
+    .destacadosOfertas {
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        width: 100%;
+        height: 130rem;
+    }
+    .destacadosOfertas li {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        height: auto;
+        gap: 1rem;
+        padding-top: 1rem;
     }
 }
 @media only screen and (max-width: 900px) {
@@ -163,6 +258,65 @@
             font-size: 3rem;
         }
     } 
+}
+@media only screen and (max-width: 918px) {
+    .marcasCards {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        justify-content: center;
+        align-items: center;
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+    .cardMarca1{
+        grid-area: card1;
+    }
+    .cardMarca2{
+        grid-area: card2;
+    }
+    .cardMarca3{
+        grid-area: card3;
+    }
+    .cardMarca4{
+        grid-area: card4;
+    }
+    .cardMarca5{
+        grid-area: card5;
+    }
+    #cardMarca {
+        text-align: center;
+        width:25rem;
+    }
+    .marcaDestacada {
+        display: flex;
+        flex-direction: column;        
+        width: 100%;
+        text-align: center;
+    }
+    #imagenDestacada {
+        width: 100%;
+        height: 100%;
+    }
+    .textoDestacado p{
+        background-color: white;
+        font-size: 1.8rem;
+        width: 100%;
+        text-align: justify;
+        padding-top: 3rem;
+    }
+    .tituloDestacada p{
+        font-size: 2.6rem;
+        font-weight: bold;
+    }
+    .tituloDestacada h2{
+        height: 1rem;
+        font-weight: bold;
+        font-size: 2rem;
+        color: $negro;
+        padding-bottom: 4rem;
+        padding-top: 3rem;
+    }
 }
 @media only screen and (max-width: 1000px) {
     .containerOfertas {

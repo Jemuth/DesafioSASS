@@ -1,0 +1,19 @@
+.contenedorCarro {
+    text-align: center;
+    background-color: $negro;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    width: 100%;
+    height: auto;
+    p{
+        font-weight: bold;
+        font-size: 3rem;
+        color: $naranja;
+        width: 100%;
+        height: auto;
+    }
+    img{
+        max-width: 60rem;
+        width: 100%;
+    }
+}

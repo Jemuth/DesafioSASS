@@ -1,4 +1,4 @@
-/* Globales */
+/** Globales **/
 *{
     padding: 0;
     margin: 0;
@@ -12,4 +12,36 @@ a {
     &:hover,&:active,&:visited,&:link{
         text-decoration: none
     }
+}
+.formFlex {
+    display: flex;
+    flex-direction: row;
+}
+.form-control {
+    width: 30rem;
+    height: 5rem;
+    font-weight: bold;
+}
+.busquedaBoton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    .btn {
+        background-color: $naranja;
+        color: $negro;
+        font-weight: bold;
+        font-size: 2rem;
+        border: none;
+    }
+    .btn:hover {
+        background-color: $naranja;
+        color: white;
+        font-weight: bold;
+        font-size: 2rem;
+        border: none;
+    }
+    
 }

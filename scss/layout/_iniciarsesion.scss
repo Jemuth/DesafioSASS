@@ -1,0 +1,64 @@
+/** Pagina Iniciar Sesion **/
+.contenedorSesion {
+    display: flex;
+    flex-direction: column;
+    background-color: $negro;
+    padding-top: 5rem;
+    padding-left: 5rem;
+    padding-bottom: 5rem;
+    height: auto;
+    h2{
+        font-size: 3rem;
+        font-weight: bold;
+        color: $naranja;
+}
+}
+.contenedorSesion form{
+    font-size: 2rem;
+    font-weight: bold;
+    color: $naranja;
+}
+.botonLogear {
+    font-size: 2rem;
+    font-weight: bold;
+    padding:2rem;
+    width: auto;
+    height: auto;
+    border: $naranja solid 5px;
+    border-radius: 20px;
+    background-color: $negro;
+    color: $naranja;
+}
+.botonLogear:hover{
+    font-size: 2rem;
+    font-weight: bold;
+    padding:2rem;
+    width: auto;
+    height: auto;
+    border: $naranja solid 5px;
+    border-radius: 20px;
+    background-color: $naranja;
+    color: $negro;
+}
+.botonCrear {
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 2rem;
+    width: auto;
+    height: auto;
+    border: $naranja solid 5px;
+    border-radius: 20px;
+    background-color: $negro;
+    color: $naranja;
+}
+.botonCrear:hover {
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 2rem;
+    width: auto;
+    height: auto;
+    border: $naranja solid 5px;
+    border-radius: 20px;
+    background-color: $naranja;
+    color: $negro;
+}

@@ -1,0 +1,72 @@
+/** Paginas Novedades **/
+.novedadesContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    background-color: $negro;
+    text-align: middle;
+}
+.novedadesTitulo {
+    display: flex;
+    width: auto;
+    height: auto;
+    justify-content: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    h2 {
+        color: $naranja;
+        font-size: 4rem;
+        font-weight: bold;
+    }
+}
+.contenedorNovedades {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+}
+.carousel-inner img {
+    margin: auto;
+  }
+.carousel-control-prev {
+    margin-left: auto;
+}
+.carousel-control-next {
+    margin-right: auto;
+}
+.carouselImg {
+    width: 40rem;
+    height: 35rem;
+}
+.novedadesTexto {
+    display: flex;
+    justify-content: center;
+    background-color: $negro;
+    padding-top: 2rem;
+    width: 100%;
+    a{
+        background-color: $negro;
+        border: $naranja solid 0.6rem;
+        border-radius: 2rem;
+        color: $naranja;
+        font-size: 3rem;
+        font-weight: bold;
+        width: auto;
+        padding: 2rem;
+    }
+    a:hover{
+        background-color: $naranja;
+        border: $naranja solid 0.6rem;
+        border-radius: 2rem;
+        color: $negro;
+        font-size: 3rem;
+        font-weight: bold;
+        width: auto;
+        padding: 2rem;
+    }
+}

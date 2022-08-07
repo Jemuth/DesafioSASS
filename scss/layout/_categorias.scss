@@ -22,38 +22,6 @@
         font-weight: bold;
     }
 }
-.busquedaCategorias {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-}
-.formFlex {
-    display: flex;
-    flex-direction: row;
-}
-.form-control {
-    width: 30rem;
-    height: 5rem;
-    font-weight: bold;
-}
-.busquedaCategorias .btn {
-    background-color: $naranja;
-    color: $negro;
-    font-weight: bold;
-    font-size: 2rem;
-    border: none;
-}
-.busquedaCategorias .btn:hover {
-    background-color: $naranja;
-    color: white;
-    font-weight: bold;
-    font-size: 2rem;
-    border: none;
-}
-
 /* Cards Categorias */
 .categoriasCards {
     display: flex;

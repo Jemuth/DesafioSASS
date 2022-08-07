@@ -1,0 +1,107 @@
+/** Pagina Catalogos **/
+.catalogosContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    background-color: $negro;
+    text-align: middle;
+}
+.catalogosTitulo {
+    display: flex;
+    width: auto;
+    height: auto;
+    justify-content: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    h2 {
+        color: $naranja;
+        font-size: 4rem;
+        font-weight: bold;
+    }
+} 
+.busquedaCatalogos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+}
+.catalogosLista {
+    display: flex;
+    align-items: center;
+    padding-top: 5rem;
+}
+.catalogosLista ul {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    padding-bottom: 3rem;
+    gap: 3rem;
+}
+.catalogosLista img {
+    width: 100%;
+    height: auto;
+}
+.contenedorCatalogo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    p{
+        color: $naranja;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+}
+.destacadoCatalogo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 5rem;
+    width: 100%;
+    h2 {
+        color: $naranja;
+        font-size: 3rem;
+        font-weight: bold;
+    }
+    p{
+        color: $negro;
+        font-size: 2rem;
+        padding: 1rem;
+        text-align: justify;
+    }
+    a{
+        color: $negro;
+        font-size: 2rem;
+        text-align: center;
+    }
+    a:hover{
+        color: white;
+        font-size: 2rem;
+        text-align: center;
+    }
+}
+.catalogoImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+    img{
+        width: 50rem;
+        height: 100%;
+    }
+}
+.fichaCatalogo {
+    background-color: $naranja;
+    width: 100%;
+    max-width: 50rem;
+    padding-bottom: 3rem;
+}

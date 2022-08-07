@@ -1,0 +1,1 @@
+Se realizaron cambios en la página de "Categorías" en la cual se incorporó SASS y ejemplos de mixins e include. Tambien se aplicaron keywords y description a todas las páginas

@@ -1,0 +1,77 @@
+/** Pagina Ayuda **/
+
+.ayudaContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    background-color: $negro;
+    text-align: middle;
+}
+.ayudaTitulo {
+    display: flex;
+    width: auto;
+    height: auto;
+    justify-content: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    h2 {
+        color: $naranja;
+        font-size: 4rem;
+        font-weight: bold;
+    }
+}
+.busquedaAyuda {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+}
+.busquedaAyuda .btn {
+    background-color: $naranja;
+    color: $negro;
+    font-weight: bold;
+    font-size: 2rem;
+    border: none;
+}
+.busquedaAyuda .btn:hover {
+    background-color: $naranja;
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    border: none;
+}
+.tituloAyuda {
+    font-size: 3rem;
+    font-weight: bold;
+}
+.temasAyuda {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: $negro;
+    width: 100%;
+    height: auto;
+    color: $naranja;
+    padding-bottom: 5rem;
+}
+.listaTemas {
+    font-size: 1.8rem;
+    list-style: none;
+}
+.desplegar {
+    background-color: $naranja;
+    color: $negro;
+    padding: 5px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 20px;
+    font-weight: bold;
+}
