@@ -1125,6 +1125,7 @@ select {
   align-items: center;
   justify-content: center;
   background-color: black;
+  gap: 1rem;
   width: 100%;
   height: auto;
   color: #cb661c;
@@ -1140,6 +1141,7 @@ select {
   padding: 5px;
   width: 100%;
   border: none;
+  border-radius: 1rem;
   text-align: left;
   outline: none;
   font-size: 20px;
