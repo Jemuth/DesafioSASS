@@ -203,7 +203,16 @@
         width: 25rem;
         height: auto;
     }
-}
+    #navbarSupportedContent {
+        justify-content: center;
+        padding-right: 0rem;
+        padding-left: 0rem;
+    }
+    .logosSvg {
+            width: 50px;
+            height: 50px;
+        }
+    }
 @media only screen and (max-width: 882px) {
     .destacadosOfertas {
         display: flex;
@@ -230,11 +239,9 @@
         gap: 2rem;
         padding-bottom: 3rem;
         img{
-            border: $naranja solid 2rem;
             width: 90%;
             height: 100%;
             border-radius: 2rem;
-            border: $naranja solid 0.6rem;
         }
     }
     .categoria1 .categoria2 .categoria3 {
@@ -358,6 +365,12 @@
         flex-direction: column;
         gap: 20rem;
     }
+    .carousel-control-prev {
+        margin-left: 10rem;
+    }
+    .carousel-control-next {
+        margin-right: 10rem;
+    }
 }
 }
 @media only screen and (max-width: 1200px) {
@@ -453,5 +466,8 @@
         justify-content: center;
         width: 100%;
         height: auto;
+    }
+    .carousel-control-prev {
+        width: 50px;
     }
 }

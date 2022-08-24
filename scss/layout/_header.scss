@@ -8,6 +8,8 @@ header {
 .contenedorHeader {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     background-color: $naranja;
     align-items: center;
     a {
@@ -16,6 +18,8 @@ header {
     a:hover{
     color: white;
 }
+.headerLogo {
+    padding-left: 5rem;
 }
 .headerLogo img {
     width: 15rem;
@@ -45,6 +49,7 @@ header {
     gap: 1rem;
     align-items: center;
 }
+}
 /* Banner */
 .banner {
     width: auto;
@@ -66,6 +71,9 @@ header {
     margin: none;
     padding: none;
 }
+.navbar-nav {
+    gap: 2rem;
+}
 .nav-link {
     background-color: $naranja;
     color: black;
@@ -80,7 +88,7 @@ header {
     width: 100%;
 }
 .navbarlogo {
-    padding-left: 1.7rem;
+    padding-left: 5rem;
     gap: 2rem;
 }
 .nav-item {
@@ -90,6 +98,7 @@ header {
     padding-bottom: 2rem; 
 }
 #navbarSupportedContent {
-    justify-content: flex-end;
+    justify-content: center;
+    padding-right: 20rem;
 }
 

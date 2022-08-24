@@ -3,6 +3,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-bottom: 2rem;
+    gap: 2rem;
     width: 100%;
     height: auto;
     background-color: $negro;
@@ -34,10 +36,10 @@
     margin: auto;
   }
 .carousel-control-prev {
-    margin-left: auto;
+    margin-left: 20rem;
 }
 .carousel-control-next {
-    margin-right: auto;
+    margin-right: 20rem;
 }
 .carouselImg {
     width: 40rem;
